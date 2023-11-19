@@ -22,13 +22,13 @@ public class BookController {
     }
 
     @PostMapping("/api/books")
-    public ResponseEntity<Book> createBook(@RequestBody Book book){
+    public ResponseEntity<Book> createBook(@RequestBody Book book) {
 
         return ResponseEntity.ok(bookService.createBook(book));
     }
 
     @GetMapping("/api/books")
-    public ResponseEntity<List<Book>> getAllBooks(){
+    public ResponseEntity<List<Book>> getAllBooks() {
         return ResponseEntity.ok(bookService.getAllBooks());
     }
 }
