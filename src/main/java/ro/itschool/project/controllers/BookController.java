@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-import ro.itschool.project.models.Book;
+import ro.itschool.project.models.entities.Book;
 import ro.itschool.project.services.BookService;
 
 import java.util.List;

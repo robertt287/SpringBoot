@@ -1,4 +1,4 @@
-package ro.itschool.project.models;
+package ro.itschool.project.models.entities;
 
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Pattern;
@@ -11,7 +11,7 @@ import java.time.ZoneId;
 import static java.time.ZoneOffset.UTC;
 
 @Data
-public class User {
+public class Client {
     private long id;
     @NotNull(message = "First name must not be null.")
     @Size(min = 2, message = "First name must be at least 2 characters long.")
