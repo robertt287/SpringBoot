@@ -31,7 +31,7 @@ public class UserServiceImpl implements UserService {
         User userEntity = new User();
         userEntity.setFirstName(userDTO.getFirstName());
         userEntity.setLastName(userDTO.getLastName());
-        userEntity.setEmail(userEntity.getEmail());
+        userEntity.setEmail(userDTO.getEmail());
 
         //save entity to database
         User savedUser = userRepository.save(userEntity);
