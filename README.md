@@ -4,3 +4,4 @@ Practicing :
 - REST API
 - IoC & DI
 - Annotations
+- Spring Data JPA
